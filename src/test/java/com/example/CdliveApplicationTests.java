@@ -30,7 +30,6 @@ public class CdliveApplicationTests {
 
 	private MockMvc mockMvc ;
 
-
 	@Before
 	public void before () {
 		this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();

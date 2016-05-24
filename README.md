@@ -1,3 +1,6 @@
 # cdlive
+
 f**k it we'll do it live!!
-ss
+
+
+TBD: O'Reilly DO IT LIVE!
