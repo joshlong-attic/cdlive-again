@@ -32,9 +32,7 @@ public class CdliveApplicationTests {
 
 	@Test
 	public void testHiAgain() throws Exception {
-		this.mockMvc.perform(
-				MockMvcRequestBuilders.get("/hi")
-		)
+		this.mockMvc.perform(MockMvcRequestBuilders.get("/hi"))
 				.andExpect(status().isOk())
 				.andExpect(mvcResult ->
 						Assert.assertEquals(mvcResult.getResponse().getContentAsString(), ("Hi")));
